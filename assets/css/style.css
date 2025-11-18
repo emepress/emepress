@@ -1,11 +1,19 @@
 
  /* ===== Desktop nav ===== */
+ header {
+     position: sticky;
+     top: 0;
+     margin: 0 auto;
+     width: 80%;
+     z-index: 2000;
+ }
  nav {
-     position: relative;
+     position: sticky ;
+     margin-top: 5rem;
      display: flex;
      justify-content: center;
      align-items: center;
-     background: rgba(255, 255, 255, 0.85);
+     background: rgba(130, 176, 255, 0.85);
      /* fondo semitransparente */
      /*box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
      /* sombra más ligera */
@@ -13,6 +21,7 @@
      /* blur efecto cristal */
      z-index: 2000;
      padding: 0 12px;
+        border-radius: 18px;
  }
 
  nav ul {
